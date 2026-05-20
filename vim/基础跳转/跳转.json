@@ -2,7 +2,7 @@
   "keyword": "跳转",
   "knowledge": "gt //跳转到下一个tab\ngT //跳转到上一个tab\nngt //跳转到后面第#n个tab\nngT //跳转到前面第#n个tab",
   "type": "tip",
-  "updated_at": "2026-05-19T19:50:43.107380",
+  "updated_at": "2026-05-20T12:04:11.066664",
   "memory": {
     "level": 2,
     "interval_seconds": 14400,
