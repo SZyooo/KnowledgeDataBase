@@ -1,0 +1,12 @@
+{
+  "keyword": "更新视图",
+  "knowledge": "可以被更新的视图应该满足如下条件：\n\n- from子句只有一个数据库关系\n- select子句只包含关系的属性名，不包含任何表达式、聚集或者distinct声明\n- 任何没有在select子句中出现的属性可以取空值\n- 查询不包含group by和having子句",
+  "type": "normal",
+  "updated_at": "2026-05-20T13:18:49.397802",
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-20T13:22:44.112530"
+  }
+}
