@@ -2,11 +2,11 @@
   "keyword": "更新视图",
   "knowledge": "可以被更新的视图应该满足如下条件：\n\n-`from`子句只有一个数据库关系\n-`select`子句只包含关系的属性名，不包含任何表达式、聚集或者`distinct`声明\n-任何没有在`select`子句中出现的属性可以取空值\n-查询不包含`group by`和`having`子句",
   "type": "normal",
-  "updated_at": "2026-05-20T15:41:32.846725",
+  "updated_at": "2026-05-20T16:04:48.077592",
   "memory": {
     "level": 0,
     "interval_seconds": 600,
-    "last_review": "2026-05-20T15:39:55.090338",
-    "next_review": "2026-05-20T15:49:55.090338"
+    "last_review": "2026-05-20T16:40:02.025287",
+    "next_review": "2026-05-20T16:50:02.025287"
   }
 }
