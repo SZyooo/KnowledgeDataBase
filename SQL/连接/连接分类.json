@@ -1,0 +1,12 @@
+{
+  "keyword": "连接分类",
+  "knowledge": "连接类型分为:\n\n- 内连接: inner join\n- 外连接: outer join\n\n外连接又分为：\n\n- 左外连接: left outer join\n- 右外连接: right outer join\n- 全外连接: full outer join",
+  "type": "normal",
+  "updated_at": "2026-05-20T11:43:01.836466",
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-20T11:41:41.691468",
+    "next_review": "2026-05-20T11:51:41.691468"
+  }
+}

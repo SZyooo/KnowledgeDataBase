@@ -1,0 +1,12 @@
+{
+  "keyword": "连接条件",
+  "knowledge": "连接条件分为三类：\n\n- 自然连接（natural join）：相同属性要求相等才能匹配\n- on <pred> : 指定匹配条件\n- using (A1, A2, A3...) : 采用自然连接，但是指定哪些属性被比较",
+  "type": "normal",
+  "updated_at": "2026-05-20T11:44:09.714120",
+  "memory": {
+    "level": 1,
+    "interval_seconds": 3600,
+    "last_review": "2026-05-20T11:49:25.642439",
+    "next_review": "2026-05-20T12:49:25.642439"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "keyword": "跳转",
+  "knowledge": "gt //跳转到下一个tab\ngT //跳转到上一个tab\nngt //跳转到后面第#n个tab\nngT //跳转到前面第#n个tab",
+  "type": "tip",
+  "updated_at": "2026-05-19T19:50:43.107380",
+  "memory": {
+    "level": 2,
+    "interval_seconds": 14400,
+    "last_review": "2026-05-19T20:53:02.373218",
+    "next_review": "2026-05-20T00:53:02.373218"
+  }
+}
