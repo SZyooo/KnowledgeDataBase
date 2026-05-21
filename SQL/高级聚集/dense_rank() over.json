@@ -1,0 +1,12 @@
+{
+  "keyword": "dense_rank() over",
+  "knowledge": "这个类似于[[rank() over|rank]]，但是它输出的排名是”紧凑的“：假设存在两个人并列第1，则第三个人的排名是第2而不是第3。",
+  "type": "normal",
+  "updated_at": "2026-05-21T20:22:31.936918",
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-21T20:21:42.045028",
+    "next_review": "2026-05-21T20:31:42.045028"
+  }
+}

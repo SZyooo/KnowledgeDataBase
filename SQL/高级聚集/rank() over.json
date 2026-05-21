@@ -1,0 +1,12 @@
+{
+  "keyword": "rank() over",
+  "knowledge": "我们可以使用`rank() over`聚集函数来进行高效排名：\n\n```SQL\nselect ID, rank() over (order by (GPA) desc) as s_rank\nfrom student_grades\norder by s_rank;\n```\n\n这个排名不是”紧凑的“：假设有两个并列第1，则第三个人排名是第3而不是第2.",
+  "type": "normal",
+  "updated_at": "2026-05-21T20:25:54.258584",
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-21T20:22:13.226921",
+    "next_review": "2026-05-21T20:32:13.226921"
+  }
+}

@@ -4,9 +4,9 @@
   "type": "normal",
   "updated_at": "2026-05-20T12:50:26.750347",
   "memory": {
-    "level": 0,
-    "interval_seconds": 600,
-    "last_review": "2026-05-20T18:11:56.547947",
-    "next_review": "2026-05-20T18:21:56.547947"
+    "level": 3,
+    "interval_seconds": 86400,
+    "last_review": "2026-05-21T15:18:18.230886",
+    "next_review": "2026-05-22T15:18:18.230886"
   }
 }
