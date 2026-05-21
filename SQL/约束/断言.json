@@ -2,11 +2,12 @@
   "keyword": "断言",
   "knowledge": "一个断言就是一个谓词，它表达了我们的数据库总能满足的一个条件。\n\n参照完整性约束是断言的特殊形式。\n\nSQL中，创建断言的语法为：\n\n```SQL\n\ncreate assertion <assertion-name> check <predicate>;\n\n```",
   "type": "normal",
-  "updated_at": "2026-05-20T19:09:24.838498",
+  "updated_at": "2026-05-21T20:39:36.562102",
+  "related": [],
   "memory": {
-    "level": 2,
-    "interval_seconds": 14400,
-    "last_review": "2026-05-21T16:23:47.093748",
-    "next_review": "2026-05-21T20:23:47.093748"
+    "level": 3,
+    "interval_seconds": 86400,
+    "last_review": "2026-05-21T20:27:10.094777",
+    "next_review": "2026-05-22T20:27:10.094777"
   }
 }

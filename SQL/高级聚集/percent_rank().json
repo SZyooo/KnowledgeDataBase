@@ -1,0 +1,13 @@
+{
+  "keyword": "percent_rank()",
+  "knowledge": "百分比排序\n\n计算的结果是 （r - 1) / (n - 1)，其中r是该元组在分区内的排名，n是该分区的元组数量\n\n**如果该分区只有一个元组，则结果是null**",
+  "type": "normal",
+  "updated_at": "2026-05-21T21:05:28.083073",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-21T21:08:43.263221"
+  }
+}

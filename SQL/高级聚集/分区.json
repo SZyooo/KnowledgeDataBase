@@ -1,12 +1,12 @@
 {
   "keyword": "分区",
-  "knowledge": "分区和[[rank() over|排序]]密切相关：我们可以指定将元组在指定的分区内进行排序而不是在全体：\n\n```SQL\nselect ID, dept_name, rank() over (partition by dept_name order by GPA desc) as dept_rank\nfrom dept_grades\norder by dept_name, dept_rank\n```",
+  "knowledge": "分区和[[rank() over|排序]]密切相关：我们可以指定将元组在指定的分区内进行排序而不是在全体：\n\n```SQL\nselect ID, dept_name, rank() over (partition by dept_name order by GPA desc) as dept_rank\nfrom dept_grades\norder by dept_name, dept_rank\n```\n\n**如果分区和group by同时存在的话则首先进行group by然后再在group by的结果上进行分区**。",
   "type": "normal",
-  "updated_at": "2026-05-21T20:24:47.279953",
+  "updated_at": "2026-05-21T20:30:10.767068",
   "memory": {
     "level": 0,
     "interval_seconds": 600,
-    "last_review": "2026-05-21T20:22:14.625074",
-    "next_review": "2026-05-21T20:32:14.625074"
+    "last_review": "2026-05-21T20:37:54.929173",
+    "next_review": "2026-05-21T20:47:54.929173"
   }
 }
