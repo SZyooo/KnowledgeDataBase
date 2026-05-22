@@ -5,9 +5,9 @@
   "updated_at": "2026-05-22T16:10:47.772746",
   "related": [],
   "memory": {
-    "level": 0,
-    "interval_seconds": 600,
-    "last_review": "2026-05-22T18:54:27.010531",
-    "next_review": "2026-05-22T19:04:27.010531"
+    "level": 1,
+    "interval_seconds": 3600,
+    "last_review": "2026-05-22T19:54:15.888510",
+    "next_review": "2026-05-22T20:54:15.888510"
   }
 }

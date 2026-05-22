@@ -1,0 +1,20 @@
+{
+  "keyword": "BCNF范式",
+  "knowledge": "**BCNF**（Boyce-Codd Normal Form）范式要求：\n对于一个关系的函数依赖集F以及函数F的[[函数依赖|闭包]]，所有形如α->β的函数依赖都满足：\n\n-α->β是平凡的\n-α是关系的一个超码",
+  "type": "normal",
+  "updated_at": "2026-05-22T21:13:12.443931",
+  "related": [
+    {
+      "subject": "SQL",
+      "chapter": "数据库设计",
+      "keyword": "函数依赖",
+      "display": "函数依赖"
+    }
+  ],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-22T21:15:38.073370"
+  }
+}
