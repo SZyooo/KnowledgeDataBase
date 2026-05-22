@@ -1,0 +1,13 @@
+{
+  "keyword": "第一范式",
+  "knowledge": "我们称一个关系模式R属于**第一范式**，如果R的所有属性的域都是[[原子域|原子]]的。",
+  "type": "normal",
+  "updated_at": "2026-05-22T16:18:26.444450",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-22T18:54:31.088802",
+    "next_review": "2026-05-22T19:04:31.088802"
+  }
+}

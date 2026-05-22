@@ -1,0 +1,13 @@
+{
+  "keyword": "原子域",
+  "knowledge": "如果一个域的元素被认为是不可分的单元，则称这个域是**原子的**。",
+  "type": "normal",
+  "updated_at": "2026-05-22T16:17:25.602708",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-22T18:54:09.587487",
+    "next_review": "2026-05-22T19:04:09.587487"
+  }
+}
