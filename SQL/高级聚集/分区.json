@@ -1,12 +1,20 @@
 {
   "keyword": "分区",
-  "knowledge": "分区和[[rank() over|排序]]密切相关：我们可以指定将元组在指定的分区内进行排序而不是在全体：\n\n```SQL\nselect ID, dept_name, rank() over (partition by dept_name order by GPA desc) as dept_rank\nfrom dept_grades\norder by dept_name, dept_rank\n```\n\n**如果分区和group by同时存在的话则首先进行group by然后再在group by的结果上进行分区**。",
+  "knowledge": "分区和排序密切相关：我们可以指定将元组在指定的分区内进行排序而不是在全体：\n```SQL\nselect ID, dept_name, rank() over (partition by dept_name order by GPA desc) as dept_rank\nfrom dept_grades\norder by dept_name, dept_rank\n```\n如果分区和group by同时存在的话则首先进行group by然后再在group by的结果上进行分区。",
   "type": "normal",
-  "updated_at": "2026-05-21T20:30:10.767068",
+  "updated_at": "2026-05-22T11:26:32.967181",
+  "related": [
+    {
+      "subject": "SQL",
+      "chapter": "高级聚集",
+      "keyword": "rank() over",
+      "display": "排序"
+    }
+  ],
   "memory": {
     "level": 0,
     "interval_seconds": 600,
-    "last_review": "2026-05-21T20:37:54.929173",
-    "next_review": "2026-05-21T20:47:54.929173"
+    "last_review": "2026-05-22T13:46:41.019819",
+    "next_review": "2026-05-22T13:56:41.019819"
   }
 }

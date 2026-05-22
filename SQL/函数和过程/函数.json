@@ -1,0 +1,13 @@
+{
+  "keyword": "函数",
+  "knowledge": "函数可以返回基本值和表。\n\n返回值的函数定义：\n\n```SQL\nCREATE FUNCTION dept_count(dept_name VARCHAR(20))\nRETURNS INTEGER\nBEGIN\n    DECLARE d_count INTEGER;\n    SELECT count(*) INTO d_count\n    FROM instructor\n    WHERE instructor.dept_name = dept_name;\n    RETURN d_count;\nEND;\n```\n\n返回表的函数定义：\n```SQL\nCREATE FUNCTION instructor_of(dept_name VARCHAR(20))\nRETURNS TABLE (\n    ID VARCHAR(5),\n    name VARCHAR(20),\n    dept_name VARCHAR(20),\n    salary NUMERIC(8,2)\n)\nRETURN TABLE (\n    SELECT ID, name, dept_name, salary\n    FROM instructor\n    WHERE instructor.dept_name = instructor_of.dept_name\n);\n```",
+  "type": "normal",
+  "updated_at": "2026-05-21T22:23:41.471096",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-22T13:46:44.466136",
+    "next_review": "2026-05-22T13:56:44.466136"
+  }
+}

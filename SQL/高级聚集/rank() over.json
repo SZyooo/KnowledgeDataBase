@@ -1,12 +1,13 @@
 {
   "keyword": "rank() over",
-  "knowledge": "我们可以使用`rank() over`聚集函数来进行高效排名：\n\n```SQL\nselect ID, rank() over (order by (GPA) desc) as s_rank\nfrom student_grades\norder by s_rank;\n```\n\n这个排名不是”紧凑的“：假设有两个并列第1，则第三个人排名是第3而不是第2.",
+  "knowledge": "我们可以使用`rank() over`聚集函数来进行高效排名：\n\n```SQL\nselect ID, rank() over (order by (GPA) desc) as s_rank\nfrom student_grades\norder by s_rank;\n```\n\n这个排名不是”紧凑的“：假设有两个并列第1，则第三个人排名是第3而不是第2.\n\n我们可以指定怎么处理空值：\n\n- `nulls first` ：将空值放在开头\n- `nulls last`：将空值放在结尾\n\n```SQL\nselect ID, rank() over (order by GPA desc nulls last) as s_rank\nfrom student_grades;\n```",
   "type": "normal",
-  "updated_at": "2026-05-21T20:25:54.258584",
+  "updated_at": "2026-05-21T21:18:01.271667",
+  "related": [],
   "memory": {
     "level": 0,
     "interval_seconds": 600,
-    "last_review": "2026-05-21T20:37:22.935345",
-    "next_review": "2026-05-21T20:47:22.935345"
+    "last_review": "2026-05-22T13:46:43.864157",
+    "next_review": "2026-05-22T13:56:43.864157"
   }
 }

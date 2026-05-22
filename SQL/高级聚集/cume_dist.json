@@ -1,0 +1,13 @@
+{
+  "keyword": "cume_dist",
+  "knowledge": "累计分布\n\n对一个元组定义为：p/n。，其中p为该分区内排序值小于或者等于该元组的元组个数，n为该分区内的元组数量。",
+  "type": "normal",
+  "updated_at": "2026-05-21T21:07:19.012230",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": "2026-05-22T13:46:41.739824",
+    "next_review": "2026-05-22T13:56:41.739824"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "keyword": "测试",
+  "knowledge": "幅度萨芬",
+  "type": "normal",
+  "updated_at": "2026-05-22T14:19:33.156315",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-22T13:53:17.368790"
+  }
+}
