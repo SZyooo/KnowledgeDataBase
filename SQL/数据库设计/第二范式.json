@@ -1,0 +1,20 @@
+{
+  "keyword": "第二范式",
+  "knowledge": "# 第二范式\n\n### 部分依赖\n\n对于函数依赖α->β，如果存在真子集γ，使得γ->β，则称β部分依赖α。\n\n## 第二范式\n\n**第二范式**（Second Normal Form，2NF）：如果R中的每个属性A都满足如下准则之一：\n\n- 它出现在R的一个候选码中\n- 它没有部分依赖于一个候选码\n\n则称关系R属于第二范式。\n\n每个[[第三范式]]都属于第二范式（每个部分依赖都是传递依赖）",
+  "type": "normal",
+  "updated_at": "2026-05-23T14:53:47.796233",
+  "related": [
+    {
+      "subject": "SQL",
+      "chapter": "数据库设计",
+      "keyword": "第三范式",
+      "display": "第三范式"
+    }
+  ],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-23T14:55:06.640466"
+  }
+}

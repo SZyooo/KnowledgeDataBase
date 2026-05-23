@@ -1,0 +1,13 @@
+{
+  "keyword": "第三范式",
+  "knowledge": "# 定义\n具有函数依赖集F的关系模式R属于**第三范式**（thirdnormal form, 3NF）的条件是：\n对于F+中所有形如α->β的函数依赖，以下至少一项成立：\n\n- α->β是一个平凡的函数依赖\n- α是R的一个超码\n- β-α中的每个属性A都包含于R的一个候选码中",
+  "type": "normal",
+  "updated_at": "2026-05-23T13:43:14.822716",
+  "related": [],
+  "memory": {
+    "level": 0,
+    "interval_seconds": 600,
+    "last_review": null,
+    "next_review": "2026-05-23T13:46:18.276557"
+  }
+}
